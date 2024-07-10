@@ -1,7 +1,7 @@
 import { NavLink, Outlet } from "react-router-dom";
-import { AiFillContacts, AiFillHome, AiFillShop, AiOutlineMenu, AiOutlineShoppingCart } from "react-icons/ai";
-import { BsFillCalendarDateFill, BsBookmarks, BsPerson } from "react-icons/bs";
-import { MdPayment, MdReviews } from "react-icons/md";
+import {  AiFillHome, AiFillShop, AiOutlineMenu, AiOutlineShoppingCart } from "react-icons/ai";
+import {  BsBookmarks, BsPerson } from "react-icons/bs";
+import { MdPayment} from "react-icons/md";
 import UseCart from "../Hooks/UseCart";
 import { FaList, FaUtensilSpoon } from "react-icons/fa";
 import useAdmin from "../Hooks/useAdmin";
