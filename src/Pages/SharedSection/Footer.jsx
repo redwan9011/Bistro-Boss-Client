@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 const Footer = () => {
   return (
     <div>
-      <div className="grid grid-cols-2 text-white ">
+      <div className="grid md:grid-cols-2 text-white ">
 
         <div className="text-center bg-gray-700 py-10">
           <h1 className="text-2xl mb-2 font-semibold">Contact Us</h1>
@@ -28,7 +28,7 @@ const Footer = () => {
       </div>
       <footer className="footer footer-center p-4 bg-black  text-white">
         <aside>
-          <p>Copyright © 2024 - All right reserved by SEA QUEEN</p>
+          <p className="text-xs  sm:text-base">Copyright © 2024 - All right reserved by SEA QUEEN</p>
         </aside>
       </footer>
     </div>

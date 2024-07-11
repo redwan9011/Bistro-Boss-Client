@@ -32,18 +32,18 @@ const Category = () => {
         className="mySwiper my-8"
       >
         <SwiperSlide className='relative '><img src={slider1} alt="" />
-            <h1 className='text-xl absolute bottom-10 left-1/3 text-white font-bold '>SALADS</h1>
+            <h1 className=' text-xs md:text-lg  lg:text-xl absolute bottom-5 md:bottom-8 lg:bottom-10 left-1 md:left-10 lg:left-1/3 text-white font-bold '>SALADS</h1>
         </SwiperSlide>
 
         <SwiperSlide><img src={slider2} alt="" />
-            <h1 className='text-center -mt-16 text-white text-xl font-bold '>PIZZAS</h1>
+            <h1 className=' text-xs md:text-lg  lg:text-xl absolute bottom-5 md:bottom-8 lg:bottom-10 left-1 md:left-10 lg:left-1/3 text-white font-bold '>PIZZAS</h1>
         </SwiperSlide>
 
         <SwiperSlide><img src={slider3} alt="" />
-        <h1 className='text-center -mt-16 text-white text-xl font-bold '>SOUP</h1></SwiperSlide>
+        <h1 className=' text-xs md:text-lg  lg:text-xl absolute bottom-5 md:bottom-8 lg:bottom-10 left-1 md:left-10 lg:left-1/3 text-white font-bold '>SOUP</h1></SwiperSlide>
 
-        <SwiperSlide><img src={slider4} alt="" />  <h1 className='text-center -mt-16 text-white text-xl font-bold '>DESERTS</h1></SwiperSlide>
-        <SwiperSlide><img src={slider5} alt="" />  <h1 className='text-center -mt-16 text-white text-xl font-bold '>DESERTS</h1></SwiperSlide>
+        <SwiperSlide><img src={slider4} alt="" />  <h1 className=' text-xs md:text-lg  lg:text-xl absolute bottom-5 md:bottom-8 lg:bottom-10 left-1 md:left-10 lg:left-1/3 text-white font-bold '>DESERTS</h1></SwiperSlide>
+        <SwiperSlide><img src={slider5} alt="" />  <h1 className=' text-xs md:text-lg  lg:text-xl absolute bottom-5 md:bottom-8 lg:bottom-10 left-1 md:left-10 lg:left-1/3 text-white font-bold '>DESERTS</h1></SwiperSlide>
 
        
       

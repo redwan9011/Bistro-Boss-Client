@@ -34,13 +34,13 @@ const OurMenu = () => {
                 ></Cover>
 
                 {/* todays offerd */}
-                <div className='my-10 max-w-6xl mx-auto'>
+                <div className='my-10 max-w-6xl mx-auto px-3 md:px-5 xl:px-0'>
                     <SectionTitle
                         subtitle={'Dont miss'}
                         heading={'TODAYS OFFER'}
                     ></SectionTitle>
 
-                    <div className="grid grid-cols-2 gap-8 my-10">
+                    <div className="grid lg:grid-cols-2 gap-8 my-10">
                         {
                             offerdemenus.map(menu => <MenuItem key={menu._id} menu={menu}></MenuItem>)
                         }
@@ -57,10 +57,10 @@ const OurMenu = () => {
                     <Cover
                         image={dessertimage}
                         heading={'DESSERT'}
-                        subtitle={'Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'}
+                        subtitle={'Indulge in our irresistible desserts, crafted with the finest ingredients. Each treat offers a perfect blend of flavors and textures. Enjoy a delightful ending to your meal'}
                     ></Cover>
 
-                    <div className="grid grid-cols-2 gap-8 my-10 max-w-6xl mx-auto">
+                    <div className="grid lg:grid-cols-2 gap-8 my-10 max-w-6xl mx-auto px-3 md:px-5 xl:px-0">
                         {
                             dessertmenus.map(menu => <MenuItem key={menu._id} menu={menu}></MenuItem>)
                         }
@@ -78,10 +78,10 @@ const OurMenu = () => {
                     <Cover
                         image={pizzaimage}
                         heading={'PIZZA'}
-                        subtitle={'Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'}
+                        subtitle={'Enjoy our handcrafted pizzas with a crispy crust and mouthwatering flavors, featuring premium ingredients and creative toppings.'}
                     ></Cover>
 
-                    <div className="grid grid-cols-2 gap-8 my-10 max-w-6xl mx-auto">
+                    <div className="grid lg:grid-cols-2 gap-8 my-10 max-w-6xl mx-auto px-3 md:px-5 xl:px-0">
                         {
                             pizzaMenus.map(menu => <MenuItem key={menu._id} menu={menu}></MenuItem>)
                         }
@@ -97,10 +97,10 @@ const OurMenu = () => {
                     <Cover
                         image={saladimage}
                         heading={'SALAD'}
-                        subtitle={'Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'}
+                        subtitle={'Savor our fresh salads, crafted with the finest ingredients for a crisp and flavorful experience. Enjoy a variety of options, from classic favorites to unique blends, perfect for a healthy and satisfying meal.'}
                     ></Cover>
 
-                    <div className="grid grid-cols-2 gap-8 my-10 max-w-6xl mx-auto">
+                    <div className="grid lg:grid-cols-2 gap-8 my-10 max-w-6xl mx-auto px-3 md:px-5 xl:px-0">
                         {
                             saladMenus.map(menu => <MenuItem key={menu._id} menu={menu}></MenuItem>)
                         }
@@ -118,10 +118,10 @@ const OurMenu = () => {
                     <Cover
                         image={soupimage}
                         heading={'SOUP'}
-                        subtitle={'Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'}
+                        subtitle={'Discover our delightful soups, crafted with care using quality ingredients to ensure rich flavors and a comforting dining experience. Perfect for starting your meal or enjoying as a hearty dish on its own.'}
                     ></Cover>
 
-                    <div className="grid grid-cols-2 gap-8 my-10 max-w-6xl mx-auto">
+                    <div className="grid lg:grid-cols-2 gap-8 my-10 max-w-6xl mx-auto px-3 md:px-5 xl:px-0">
                         {
                             soupMenus.map(menu => <MenuItem key={menu._id} menu={menu}></MenuItem>)
                         }

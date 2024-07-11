@@ -24,7 +24,7 @@ const TestiMonials = () => {
             })
     }, [])
     return (
-        <div className="my-10 max-w-6xl mx-auto ">
+        <div className="my-10 max-w-6xl mx-auto px-3 md:px-5 xl:px-0">
             <div className="mb-8">
                 <SectionTitle
                     subtitle={'What Our Client Say'}
@@ -44,10 +44,10 @@ const TestiMonials = () => {
                                     value={review?.rating}
                                     readOnly
                                 />
-                                <BiSolidQuoteLeft className="mx-auto text-7xl my-4"></BiSolidQuoteLeft>
+                                <BiSolidQuoteLeft className="mx-auto text-4xl lg:text-7xl my-4"></BiSolidQuoteLeft>
 
 
-                                <p>{review?.details}</p>
+                                <p className="text-xs md:text-sm lg:text-base">{review?.details}</p>
                                 <h1 className="text-lg text-yellow-500">{review?.name}</h1>
                             </div>
 

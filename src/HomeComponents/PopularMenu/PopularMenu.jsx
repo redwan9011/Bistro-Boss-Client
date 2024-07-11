@@ -21,7 +21,7 @@ const PopularMenu = () => {
     const popularMenus = menus.filter(item => item.category === 'popular')
  
     return (
-        <div className="max-w-6xl mx-auto mb-10">
+        <div className="max-w-6xl mx-auto mb-10 px-3 md:px-5 xl:px-0">
             <div>
                 <SectionTitle
                     subtitle={'---Check it out---'}
@@ -29,7 +29,7 @@ const PopularMenu = () => {
                 ></SectionTitle>
             </div>
 
-            <div className="grid grid-cols-2 gap-8 my-10">
+            <div className="grid lg:grid-cols-2 gap-8 mt-10 mb-3">
                 {
                    popularMenus.map(menu => <MenuItem key={menu._id} menu={menu}></MenuItem>)
                 }
