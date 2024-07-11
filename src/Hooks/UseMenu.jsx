@@ -9,7 +9,7 @@ const UseMenu = () => {
     // const [menus, setMenus] = useState([])
     // const [loading, setLoading] = useState(true)
     // useEffect(() => {
-    //     axios.get('http://localhost:5000/menus')
+    //     axios.get('https://y-iota-lac.vercel.app/menus')
     //         .then(res => {
     //             setMenus(res.data)
     //             setLoading(false)

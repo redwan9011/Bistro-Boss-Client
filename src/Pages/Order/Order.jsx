@@ -20,7 +20,7 @@ const Order = () => {
         <div>
             <div>
             <Helmet>
-                <title>BISTRO | ORDER</title>
+                <title>SEE QUEEN | ORDER</title>
 
             </Helmet>
             </div>

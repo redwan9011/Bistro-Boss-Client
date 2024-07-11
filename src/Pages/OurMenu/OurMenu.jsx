@@ -22,7 +22,7 @@ const OurMenu = () => {
     return (
         <div>
             <Helmet>
-                <title>BISTRO | MENU</title>
+                <title>SEE QUEEN | MENU</title>
 
             </Helmet>
             <div>

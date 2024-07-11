@@ -1,9 +1,9 @@
 import { NavLink, Outlet } from "react-router-dom";
 import {  AiFillHome, AiFillShop, AiOutlineMenu, AiOutlineShoppingCart } from "react-icons/ai";
-import {  BsBookmarks, BsPerson } from "react-icons/bs";
+import {   BsPerson } from "react-icons/bs";
 import { MdPayment} from "react-icons/md";
 import UseCart from "../Hooks/UseCart";
-import { FaList, FaUtensilSpoon } from "react-icons/fa";
+import {  FaUtensilSpoon } from "react-icons/fa";
 import useAdmin from "../Hooks/useAdmin";
 
 const Dashboard = () => {
@@ -22,14 +22,14 @@ const Dashboard = () => {
 
                             <li ><NavLink to='/dashboard/addItems' className="flex gap-2 items-center"> <FaUtensilSpoon className="text-xl"></FaUtensilSpoon>Add Items</NavLink></li>
 
-                            <li ><NavLink to='/dashboard/manageItems' className="flex gap-2 items-center">
+                            {/* <li ><NavLink to='/dashboard/manageItems' className="flex gap-2 items-center">
                                 <FaList className="text-xl"></FaList>
-                                Manage Items </NavLink></li>
+                                Manage Items </NavLink></li> */}
 
 
-                            <li ><NavLink to='/dashboard/manageBookings' className="flex gap-2 items-center">
+                            {/* <li ><NavLink to='/dashboard/manageBookings' className="flex gap-2 items-center">
                                 <BsBookmarks className="text-xl"></BsBookmarks>
-                                Manage Bookings</NavLink></li>
+                                Manage Bookings</NavLink></li> */}
 
                             <li ><NavLink to='/dashboard/allUsers' className="flex gap-2 items-center">
                                 <BsPerson className="text-xl"></BsPerson>
@@ -50,7 +50,7 @@ const Dashboard = () => {
 
                                 {/* <li ><NavLink to='/dashboard/review' className="flex gap-2 items-center"> <MdReviews className="text-xl"></MdReviews> Add Review</NavLink></li> */}
 
-                                <li ><NavLink to='/dashboard/booking' className="flex gap-2 items-center"> <BsBookmarks className="text-xl"></BsBookmarks> My Booking</NavLink></li>
+                                {/* <li ><NavLink to='/dashboard/booking' className="flex gap-2 items-center"> <BsBookmarks className="text-xl"></BsBookmarks> My Booking</NavLink></li> */}
                             </>
 
 

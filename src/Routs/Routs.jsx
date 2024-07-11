@@ -95,7 +95,7 @@ const router = createBrowserRouter([
             {
                 path: 'updateItems/:id',
                 element:<AdminRout><UpdateItems></UpdateItems></AdminRout>,
-                loader: ({params})=> fetch(`http://localhost:5000/menus/${params.id}`)
+                loader: ({params})=> fetch(`https://y-iota-lac.vercel.app/menus/${params.id}`)
                 
             },
         ]

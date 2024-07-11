@@ -5,7 +5,7 @@ import UseAuth from "./UseAuth";
 
 // eslint-disable-next-line react-refresh/only-export-components
  const axiosSecure = axios.create({
-    baseURL: 'http://localhost:5000'
+    baseURL: 'https://y-iota-lac.vercel.app'
 })
 const UseAxiosSecure = () => {
     // const navigate = useNavigate()
